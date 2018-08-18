@@ -1,0 +1,517 @@
+/*
+Theme Name:   Bard Theme Child
+Theme URI:    http://example.com/unite-theme-child/
+Description:  Bard Child Theme - A Busy Woman
+Author:   	Anna Haefele
+Author URI:   http://example.com
+Template: 	bard
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  bard-theme-child
+*/
+
+/*MOBILE STYLES*/
+/*Global*/
+
+.page-body{
+  max-width: 95%;
+  margin-left: 2.5%;
+  text-align: justify;
+  display: block;
+}
+
+.page-body p a {
+  color: #89023E !important;
+}
+
+.page-body p a:hover {
+  color: #000000 !important;
+}
+
+h2 {
+  font-family: 'Poiret One', cursive;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1em;
+  margin-bottom: 35px;
+  text-align: left;
+}
+
+p {
+  clear: both;
+}
+
+.title-prefix {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/*Header*/
+
+.header-logo a {
+  display: inline-block;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-family: 'Poiret One', cursive !important;
+  line-height: 1;
+  background-color: #fff;
+  padding: 3%;
+  margin: 10%;
+  border-radius: 5px;
+  border: 3px double #89023E;
+  opacity: .9;
+}
+
+.site-description {
+  display: none;
+}
+
+#main-nav {
+  border-top: 2px solid #89023E;
+  border-bottom: 2px solid #89023E;
+}
+
+#main-nav ul li a{
+  color: #353535 !important;
+}
+
+.main-nav-buttons {
+  display: none;
+}
+
+.main-nav-search {
+  display: none;
+}
+
+/*HOME*/
+
+.intro-div {
+  padding-bottom: 35px;
+  margin-bottom: 35px;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+#featured-quote {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+#support-text {
+  margin-top: 25px;
+}
+
+.button {
+  float: right;
+  width: 100%;
+  background-color: #89023E;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff !important;
+  text-align: center;
+  font-family: 'Open Sans', cursive;
+  font-size: 1.15em;
+  clear: none;
+  margin-top: 15px;
+  margin-bottom: 55px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #aa024d;
+}
+
+.about-us-block {
+  border-top: 1px solid #ababab;
+  clear: right;
+  padding-top: 35px;
+}
+
+.about-us-block h4 {
+  margin-bottom: 25px;
+}
+
+#philosophy #expertise #contact-home{
+  display: block;
+  margin-top: 35px;
+}
+
+#expertise ul{
+  margin-bottom: 15px;
+  list-style: initial;
+  margin-left: 18px;
+}
+
+.home-icon {
+  margin-bottom: 35px;
+}
+
+.section-text {
+  border-bottom: 1px solid #ababab;
+  margin-bottom: 35px;
+}
+.section-title {
+  text-align: center;
+}
+.section-text p, .section-text ul {
+  padding-bottom: 35px;
+}
+/*Testimonials*/
+#testimonial_rotator_wrap_293 {
+  clear: both;
+  width: 100%;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.testimonial_rotator_quote {
+  text-align: center !important;
+}
+
+/*Gallery*/
+
+.final-tiles-gallery {
+    clear: both;
+    padding-top: 35px;
+    border-top: 1px solid #ababab;
+  }
+
+/*Contact Form*/
+
+.wpcf7 {
+  padding-top: 35px !important;
+  border-top: 1px solid #ababab;
+  margin-top: 35px !important;
+}
+
+.wpcf7 label, .wpcf7-quiz-label p {
+  font-weight: bold;
+  font-size: .9em;
+}
+
+.wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 input[type="url"] {
+  width: 100%;
+}
+
+.wpcf7 [type="submit"] {
+  float: right;
+  width: 100%;
+  background-color: #89023E !important;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff !important;
+  text-align: center;
+  font-family: 'Open Sans', cursive;
+  font-weight: normal;
+  font-size: 1.15em;
+  clear: none;
+  margin-top: 15px;
+  margin-bottom: 55px;
+  border-radius: 5px;
+}
+
+.wpcf7 [type="submit"]:hover {
+  background-color: #aa024d !important;
+}
+
+.wpcf7-response-output {
+  clear: both;
+}
+
+/*History*/
+
+.history figure {
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.history-text {
+  width: 100%;
+  margin-bottom: 55px;
+}
+
+.history-text h5 {
+  text-align: center;
+}
+
+.history-text p {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.featured-work div{
+  display: block;
+  text-align: center;
+}
+
+.history-featured-work ul{
+  display: inline-block;
+  width: 100%;
+  text-align: justify;
+}
+.history-featured-work li {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+}
+
+.history-featured-work figure{
+  margin-left: 0;
+  margin-top: 1em;
+  width: 100%;
+}
+
+.featured-work h6{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.featured-work h6 a{
+  color: #000000;
+}
+
+.featured-work h6 a:hover {
+  color: #89023E;
+}
+
+.individual-featured-work h6{
+  margin-top: .5em;
+}
+
+/*Posts*/
+
+.post-container {
+  max-width: 95%;
+  margin-left: 2.5%;
+  padding-left: 10px;
+}
+
+.testimonial_rotator_quote {
+  text-align: justify !important;
+}
+
+.testimonials {
+  display: inline-block;
+}
+
+.individual-testimonial{
+  display: inline-block;
+  width: 100%;
+  text-align: justify;
+  vertical-align: top;
+  border-bottom: 1px solid #ababab;
+}
+
+.individual-testimonial h6 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.individual-testimonial h6 a {
+  color: #89023E;
+}
+
+.individual-testimonial h6 a:hover {
+  color: #000000;
+}
+
+.individual-testimonial p {
+  margin-bottom: 25px;
+}
+
+/*Page Footer*/
+
+#page-footer {
+  clear: both;
+}
+
+.footer-copyright {
+  background-color: #ffffff !important;
+  border-top: 3px solid #89023E;
+  padding: 30px 0 20px;
+}
+
+.copyright-info {
+  color: #89023E !important;
+}
+
+.copyright-info a {
+  color: #89023E !important;
+}
+
+.copyright-info a:hover {
+  color: #000000 !important;
+}
+
+/*TABLET STYLES*/
+@media (min-width: 768px) {
+  /*Global*/
+
+  .page-body{
+    max-width: 70%;
+    margin-left: 15%;
+    text-align: justify;
+    display: block;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  .title-prefix {
+    font-size: 1.4rem;
+  }
+
+/*Header*/
+
+.header-logo a {
+  font-size: 4.5em;
+  margin: 0;
+}
+
+/*HOME*/
+
+.intro-div {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+#featured-image {
+  float: left;
+  max-width: 27%;
+}
+
+#featured-quote {
+  margin-top: 0;
+  margin-bottom: 0;
+  float: right;
+  max-width: 68%;
+  margin-left: 5%;
+  text-align: justify;
+}
+
+#support-text {
+  max-width: 68%;
+  margin-left: 5%;
+  float:right;
+}
+
+.button {
+  font-size: 1.1em;
+}
+
+.about-us-block h4 {
+  margin-bottom: 25px;
+}
+
+#expertise {
+  clear: both;
+}
+.section-title {
+  text-align: justify;
+}
+.section-text {
+  max-width: 60%;
+  clear: none;
+  border-bottom: none;
+  margin-bottom: none;
+}
+
+.left-text {
+  float:left;
+  padding-right: 2%;
+  margin-bottom: 55px;
+}
+
+.right-text {
+  float: right;
+  padding-left: 2%;
+  margin-bottom: 55px;
+}
+
+.home-icon {
+  max-width: 35%;
+  margin-bottom: 55px;
+}
+.icon-right {
+  float: right;
+}
+
+.icon-left {
+  float: left;
+}
+
+/*History*/
+
+.history figure {
+  float: left;
+  max-width: 28%;
+}
+
+.history-text {
+  float: right;
+  clear: right;
+  width: 67%;
+  padding-left: 5%;
+  border-left: 1px solid #ababab;
+}
+
+.history-text h5 {
+  text-align: left;
+}
+
+.history-text p {
+  text-align: justify;
+}
+
+.history-featured-work li {
+  width: 32.75%;
+}
+
+/*Posts*/
+
+.individual-testimonial{
+  max-width: 100%;
+}
+
+.individual-testimonial h6 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.post-footer {
+  margin-top: 25%;
+}
+}
+
+/*DESKTOP STYLES*/
+@media (min-width: 940px) {
+
+  /*Homepage*/
+
+  .section-text {
+    max-width: 70%;
+  }
+
+  .home-icon {
+    max-width: 23%;
+    margin-bottom: 25px;
+  }
+  .icon-right {
+    margin-top: 25px;
+  }
+
+  .button {
+    font-size: 1.1em;
+    width: 34%;
+  }
+
+  /*Contact*/
+  .wpcf7 [type="submit"] {
+    width: 34%;
+  }
