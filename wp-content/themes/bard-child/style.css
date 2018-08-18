@@ -348,7 +348,7 @@ p {
 }
 
 /*TABLET STYLES*/
-@media (min-width: 768px) {
+@media (min-width: 568px) {
   /*Global*/
 
   .page-body{
